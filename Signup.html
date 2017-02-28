@@ -4,26 +4,39 @@
 <title>
 ::signup::
 </title>
-<link rel="stylesheet" type="text/css" href="Login.css">
+<link rel="stylesheet" type="text/css" href="LoginSignUp.css">
+<link rel="stylesheet" type="text/css" href="Dropdown.css">
 </head>
 
 <body>
+    <div align="right">
+    <div class="dropdown" align="left">
+       <a href="bizgram.html"> <button class="dropbtn">Home</button></a>
+        <div class="dropdown-content">
+            <a href="signup.html">Signup</a>
+            <a href="Login.html">Login</a>
+            <a href="Profiles.html">Profiles</a>
+            <a href="Pricing.html">Pricing</a>
+        </div>
+    </div>
+</div>
+<hr>
 
 <div>
 <form style="color:#F6B352">
 
 
 <h1>SIGN-UP FORM FOR ARTISTS</h1>
-<input type="file" name="profile" accept="image/*" >
-<input type="submit">
+
+
 <h2>First Name:<input type="text" name="fname"></h2>
 <h2>Last Name:<input type="text" name="lname"></h2>
 <h2>Age:<input type="number" name="age" min="18" max="90"></h2>
 <h2>Email:<input type="email" name="email"></h2>
-<h2>Password:<input type="password" name="password"></h2>
+<h2>Password:<input type="password" name="psw"></h2>
 <h2>Gender:</h2><input type="radio" name="gender" value="male" checked>Male  <input type="radio" name="gender" value="female">Female  <input type="radio" name="gender" value="other">Other
 
-<h2>Date Of Birth:<input type="number" name="date" min="1" max="31"><input type="number" name="month" min="1" max="12"><input type="number" name="year" min="1900" max="2017"></h2>
+<h2>Date Of Birth:<input type="number" name="dob" min="1" max="31"><input type="number" name="mob" min="1" max="12"><input type="number" name="yob" min="1900" max="2017"></h2>
 <textarea rows="6" cols="20">
     Write down your skills
 </textarea>
@@ -40,16 +53,16 @@
 
 
 <h1>SIGN-UP FORM FOR CUSTOMERS</h1>
-<input type="file" name="profile" accept="image/*" >
-<input type="submit">
+
+
 <h2>First Name:<input type="text" name="fname"></h2>
 <h2>Last Name:<input type="text" name="lname"></h2>
 <h2>Age:<input type="number" name="age" min="18" max="90"></h2>
 <h2>Email:<input type="email" name="email"></h2>
-<h2>Password:<input type="password" name="password"></h2>
+<h2>Password:<input type="password" name="psw"></h2>
 <h2>Gender:</h2><input type="radio" name="gender" value="male" checked>Male  <input type="radio" name="gender" value="female">Female  <input type="radio" name="gender" value="other">Other
 
-<h2>Date Of Birth:<input type="number" name="date" min="1" max="31"><input type="number" name="month" min="1" max="12"><input type="number" name="year" min="1900" max="2017"></h2>
+<h2>Date Of Birth:<input type="number" name="dob" min="1" max="31"><input type="number" name="mob" min="1" max="12"><input type="number" name="yob" min="1900" max="2017"></h2>
 <textarea rows="6" cols="20">
     Write down your requirement
 </textarea>
