@@ -1,14 +1,17 @@
-card{
+
+.card{
     /*Add shadows to create the "card" effect*/
     box-shadow:0 8px 8px 0 rgba(0,0,0,0.4);
     transition:0.3s;
     background-color:#1F2124;
     margin-left:auto;
     margin-right:auto;
+    width:70%;
 }
 
 .card:hover{
     box-shadow:8px 32px 16px 8px rgba(0,0,0,0.8);
+
 }
 
 p,h2,strong,small{
