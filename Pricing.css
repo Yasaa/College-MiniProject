@@ -1,3 +1,36 @@
-.3cards{
+.threecards{
+  position:absolute;
+  top:250px;
+
+  box-shadow:0 2px 2px 0 rgba(0,0,0,0.4);
+
+  transition: 0.3s;
+  background-color:#F8F8FF;
+
+
+   width:350px;
+  height:500px;
 
 }
+
+body{display: block;
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+
+/*
+
+<div   class="threecards" style="left:20px">
+
+</div>
+
+<div class="threecards" style="left:450px">
+</div>
+
+<div class="threecards" style="left:900px">
+</div>
+*/
